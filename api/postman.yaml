@@ -3,8 +3,7 @@ info:
   version: 1.0.0
   title: PostmanTest
 servers:
-  # - url: 'http://localhost:3000'
-  - url: 'https://postman-echo.com/basic-auth'
+  - url: 'http://localhost:3000'
 paths:
   /user:
     get:
