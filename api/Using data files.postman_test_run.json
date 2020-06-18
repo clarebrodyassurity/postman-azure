@@ -1,0 +1,56 @@
+{
+	"id": "f0804595-a8e8-4666-9266-669d4d74e8ff",
+	"name": "Using data files",
+	"timestamp": "2020-06-17T03:26:56.574Z",
+	"collection_id": "ce66acf5-d80d-459d-832e-b782f4e24f56",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "650dc6af-70ed-461c-a3ed-99bc1443ea9d",
+			"name": "POST Request",
+			"time": 311,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response has data value": true
+			},
+			"testPassFailCounts": {
+				"Response has data value": {
+					"pass": 3,
+					"fail": 0
+				}
+			},
+			"times": [
+				252,
+				230,
+				311
+			],
+			"allTests": [
+				{
+					"Response has data value": true
+				},
+				{
+					"Response has data value": true
+				},
+				{
+					"Response has data value": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"totalTime": 793,
+	"collection": {
+		"requests": [
+			{
+				"id": "650dc6af-70ed-461c-a3ed-99bc1443ea9d",
+				"method": "POST"
+			}
+		]
+	}
+}
